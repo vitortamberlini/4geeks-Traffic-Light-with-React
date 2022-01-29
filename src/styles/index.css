@@ -1,14 +1,32 @@
+nody {}
+
 .traffic-color {
-    color: white;
     background-color: black;
 }
 
 #handle {
-    width: 2.5vw;
+    width: 1.5vw;
     height: 20vh;
 }
 
 #traffic-box {
-    width: 20vw;
-    height: 70vh;
+    width: 10vw;
+    height: 50vh;
+}
+
+.light {
+    width: 85%;
+    border-radius: 100%;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
 }

@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Light from "./light.jsx";
 
 const TrafficLight = () => {
 	return (
@@ -10,7 +11,11 @@ const TrafficLight = () => {
 					<Col className="traffic-color"></Col>
 				</Row>
 				<Row id="traffic-box">
-					<Col className="traffic-color rounded"></Col>
+					<Col className="py-3 d-flex flex-column align-items-center traffic-color">
+						<Light color="red" />
+						<Light color="yellow" />
+						<Light color="green" />
+					</Col>
 				</Row>
 			</Container>
 		</>
