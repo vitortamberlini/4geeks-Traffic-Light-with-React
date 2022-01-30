@@ -30,3 +30,8 @@ nody {}
 .green {
     background-color: green;
 }
+
+.selected {
+    z-index: 1;
+    box-shadow: 0 0 4em 1.5em gold;
+}

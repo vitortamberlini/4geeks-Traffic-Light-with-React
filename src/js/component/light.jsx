@@ -1,7 +1,11 @@
 const Light = (props) => {
 	return (
 		<>
-			<div className={props.color + " light flex-fill"}></div>
+			<div
+				onClick={() => props.handler(props.color)}
+				className={`${props.color} ${
+					props.isOn ? "selected" : ""
+				} light flex-fill`}></div>
 		</>
 	);
 };
