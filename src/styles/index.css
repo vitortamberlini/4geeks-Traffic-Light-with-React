@@ -1,12 +1,37 @@
+nody {}
 
-/* 
+.traffic-color {
+    background-color: black;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+#handle {
+    width: 1.5vw;
+    height: 20vh;
+}
 
-*/
+#traffic-box {
+    width: 10vw;
+    height: 50vh;
+}
+
+.light {
+    width: 85%;
+    border-radius: 100%;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.selected {
+    z-index: 1;
+    box-shadow: 0 0 4em 1.5em gold;
+}
